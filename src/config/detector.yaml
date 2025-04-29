@@ -1,0 +1,4 @@
+detector:
+  iou_threshold: 0.5
+  nms_type: torchvision
+  threshold: 0.5

@@ -1,0 +1,16 @@
+bytetrack:
+  match_thresh: 0.6
+  mot20: true
+  track_buffer: 60
+  track_thresh: 0.5
+deepsort:
+  bgr: true
+  embedder: mobilenet
+  embedder_gpu: true
+  half: true
+  max_age: 10
+  max_cosine_distance: 0.3
+  n_init: 3
+  nms_max_overlap: 0.5
+  nn_budget: null
+  today: null

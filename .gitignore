@@ -1,0 +1,6 @@
+YOLOX/
+checkpoints/
+data/
+venv/
+__pycache__
+*.zip

@@ -1,0 +1,9 @@
+yolo:
+  conf_thres: 0.5
+  iou_thres: 0.5
+  model_path: checkpoints/model_weights
+yolox:
+  ckpt_file: checkpoints/model_weights
+  confthre: 0.5
+  exp_file: null
+  nmsthre: 0.5

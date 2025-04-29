@@ -1,0 +1,48 @@
+================================================================================
+OBJECT COUNTING SUMMARY FOR MODEL: yolox-s
+  Total Parameters: 8956703
+  Trainable Parameters: 0
+================================================================================
+
+PROCESSING INFORMATION:
+  Input Video: data/input/Video1a.mp4
+  Output Video: data/output/Output.mp4
+  Model: yolox-s
+  Tracking Algorithm: bytetrack
+  Device: CUDA - NVIDIA GeForce GTX 960M
+  Peak GPU Memory: 1.53 GB
+
+TIMING:
+  Start: 2025-04-06 23:20:52
+  End: 2025-04-06 23:21:04
+  Duration: 0:00:12.799908
+  Total Seconds: 12.80
+
+PERFORMANCE:
+  Average FPS: 16.95
+  Median FPS: 17.17
+  Min FPS: 0.34
+  Max FPS: 17.76
+  Frames Processed: 268
+  Frame Skip Rate: 3
+  Average Detections per Frame: 1.82
+
+COUNTING STATISTICS:
+  Total Up: 3
+  Total Down: 3
+  Total Objects: 6
+
+Line: Line1
+----------------------------------------
+
+UP Direction:
+  car: 3
+
+DOWN Direction:
+  car: 3
+
+Totals:
+  Total Up: 3
+  Total Down: 3
+  Overall Total: 6
+

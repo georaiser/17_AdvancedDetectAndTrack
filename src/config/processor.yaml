@@ -1,0 +1,9 @@
+processor:
+  enable_counter: true
+  enable_display: true
+  enable_drawer: false
+  enable_save: true
+  enable_tracking: true
+  frame_skip: 3
+  model: yolo11s
+  tracker: bytetrack

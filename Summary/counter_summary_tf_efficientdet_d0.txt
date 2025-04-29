@@ -1,0 +1,48 @@
+================================================================================
+OBJECT COUNTING SUMMARY FOR MODEL: tf_efficientdet_d0
+  Total Parameters: 3880067
+  Trainable Parameters: 0
+================================================================================
+
+PROCESSING INFORMATION:
+  Input Video: data/input/Video1a.mp4
+  Output Video: data/output/Output.mp4
+  Model: tf_efficientdet_d0
+  Tracking Algorithm: bytetrack
+  Device: CUDA - NVIDIA GeForce GTX 960M
+  Peak GPU Memory: 1.79 GB
+
+TIMING:
+  Start: 2025-04-06 13:38:56
+  End: 2025-04-06 13:39:08
+  Duration: 0:00:12.623771
+  Total Seconds: 12.62
+
+PERFORMANCE:
+  Average FPS: 15.78
+  Median FPS: 15.97
+  Min FPS: 0.47
+  Max FPS: 17.35
+  Frames Processed: 268
+  Frame Skip Rate: 3
+  Average Detections per Frame: 0.59
+
+COUNTING STATISTICS:
+  Total Up: 0
+  Total Down: 0
+  Total Objects: 0
+
+Line: Line1
+----------------------------------------
+
+UP Direction:
+  No objects counted
+
+DOWN Direction:
+  No objects counted
+
+Totals:
+  Total Up: 0
+  Total Down: 0
+  Overall Total: 0
+

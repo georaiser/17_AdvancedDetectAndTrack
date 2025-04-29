@@ -1,0 +1,1 @@
+ffmpeg -i Video1.mp4 -c:v libx264 -preset slow -crf 28 -vf "scale='if(gt(a,1024/720),1024,-2)':'if(gt(a,1024/720),-2,720)'" -c:a aac -b:a 96k -movflags +faststart Video1a.mp4

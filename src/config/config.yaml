@@ -1,0 +1,8 @@
+config_files:
+  model: "model.yaml"
+  video: "video.yaml"
+  processor: "processor.yaml"
+  detector: "detector.yaml"
+  tracker: "tracker.yaml"
+  drawer: "drawer.yaml"
+  classes: "coco.yaml"

@@ -1,0 +1,48 @@
+================================================================================
+OBJECT COUNTING SUMMARY FOR MODEL: fasterrcnn_resnet50_fpn
+  Total Parameters: 41755286
+  Trainable Parameters: 0
+================================================================================
+
+PROCESSING INFORMATION:
+  Input Video: data/input/Video1a.mp4
+  Output Video: data/output/Output.mp4
+  Model: fasterrcnn_resnet50_fpn
+  Tracking Algorithm: bytetrack
+  Device: CUDA - NVIDIA GeForce GTX 960M
+  Peak GPU Memory: 1.42 GB
+
+TIMING:
+  Start: 2025-04-06 13:41:08
+  End: 2025-04-06 13:41:54
+  Duration: 0:00:45.880054
+  Total Seconds: 45.88
+
+PERFORMANCE:
+  Average FPS: 2.31
+  Median FPS: 2.34
+  Min FPS: 0.08
+  Max FPS: 2.35
+  Frames Processed: 150
+  Frame Skip Rate: 3
+  Average Detections per Frame: 4.66
+
+COUNTING STATISTICS:
+  Total Up: 3
+  Total Down: 6
+  Total Objects: 9
+
+Line: Line1
+----------------------------------------
+
+UP Direction:
+  car: 3
+
+DOWN Direction:
+  car: 6
+
+Totals:
+  Total Up: 3
+  Total Down: 6
+  Overall Total: 9
+
