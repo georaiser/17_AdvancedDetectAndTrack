@@ -1,0 +1,1 @@
+ffmpeg -i Video5.mp4 -vf scale=854:480 -vcodec libx264 -preset slow -crf 23 -acodec aac -b:a 128k Video5a.mp4

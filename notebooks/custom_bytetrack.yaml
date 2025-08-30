@@ -1,0 +1,33 @@
+# custom_bytetrack.yaml
+# Optimized for license plate detection on vehicles
+
+tracker_type: bytetrack
+
+# High confidence threshold - when to consider a detection "confirmed"
+# Lower for license plates since vehicles can have varying detection confidence
+track_high_thresh: 0.4
+
+# Low confidence threshold - minimum to keep existing tracks alive
+# Keep default - vehicles below this are likely false positives
+track_low_thresh: 0.1
+
+# New track threshold - when to start a new track
+# Lower for vehicles that might initially have lower confidence
+new_track_thresh: 0.4
+
+# Track buffer - frames to keep a track alive after losing detection
+# Higher for license plates - vehicles can be temporarily occluded
+track_buffer: 50
+
+# Match threshold - IoU threshold for matching detections to existing tracks
+# Lower for vehicles that can change appearance (different angles, lighting)
+match_thresh: 0.7
+
+# Fuse score - whether to use detection score + tracking score
+# False for cleaner tracking, especially when vehicle confidence varies
+fuse_score: false
+
+# Additional parameters (if supported)
+# Track activation threshold - detections needed before track is "activated"
+min_box_area: 100      # Minimum bounding box area (filters tiny detections)
+aspect_ratio_thresh: 1.6  # Filter non-vehicle aspect ratios
