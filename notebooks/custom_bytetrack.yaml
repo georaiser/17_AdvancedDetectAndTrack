@@ -1,5 +1,4 @@
 # custom_bytetrack.yaml
-# Optimized for license plate detection on vehicles
 
 tracker_type: bytetrack
 
