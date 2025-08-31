@@ -9,3 +9,6 @@ __pycache__
 old/
 JRE.jpg
 .ipynb_checkpoints
+
+debug/
+debug*.jpg
